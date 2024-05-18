@@ -10,7 +10,7 @@
       "conventionalCommits": true
     },
     "publish": {
-      "registry": "https://registry.npmjs.com/"
+      "registry": "https://registry.npmjs.org/"
     }
   },
   "message": "chore(release): %s",
