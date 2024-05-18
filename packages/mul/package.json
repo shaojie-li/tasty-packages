@@ -6,7 +6,8 @@
   "module": "dist/index.js",
   "types": "index.d.ts",
   "publishConfig": {
-    "access": "public"
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
   },
   "scripts": {
     "build": "rollup -c --bundleConfigAsCjs --environment SOME_ENV1:production,SOME_ENV2:production",
@@ -15,5 +16,5 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "gitHead": "aae819d07faecec9de69e57eda3c3cfd2c688b58"
+  "gitHead": "79762d18e211cfe47f014107467ade9566e9a118"
 }
