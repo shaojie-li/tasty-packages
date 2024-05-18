@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+      "module": "ESNext",
+      "target": "ES5",
+      "moduleResolution": "node",
+      "sourceMap": true,
+      "allowJs": true,
+      "allowSyntheticDefaultImports": true,
+      "importHelpers": true,
+      "lib": ["dom", "ESNext"],
+      "experimentalDecorators": true,
+      "forceConsistentCasingInFileNames": true,
+      "noImplicitReturns": true,
+      "noImplicitThis": true,
+      "downlevelIteration": true,
+      "resolveJsonModule": false,
+      "typeRoots": ["./node_modules/@types"]
+  },
+  "include": ["packages/**/*.ts", "packages/**/*.tsx"]
+}

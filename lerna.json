@@ -1,0 +1,25 @@
+{
+  "$schema": "node_modules/lerna/schemas/lerna-schema.json",
+  "npmClient": "pnpm",
+  "npmClientArgs": ["--production", "--no-optional"],
+  "skipNxCache": true,
+  "version": "independent",
+  "command": {
+    "version": {
+      "allowBranch": ["main"],
+      "includeMergedTags": true
+    },
+    "publish": {
+      "registry": "https://registry.npmjs.org/"
+    }
+  },
+  "message": "chore(release): publish",
+  "ignoreChanges": [
+    "**/.babelrc", 
+    "**/tsconfig.json", 
+    "**/*.config.js", 
+    "**/*.lock", 
+    "**/*.log", 
+    "**/*.md"
+  ]
+}
