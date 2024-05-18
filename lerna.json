@@ -7,13 +7,13 @@
   "command": {
     "version": {
       "allowBranch": ["main"],
-      "includeMergedTags": true
+      "conventionalCommits": true
     },
     "publish": {
       "registry": "https://registry.npmjs.org/"
     }
   },
-  "message": "chore(release): publish",
+  "message": "chore(release): %s",
   "ignoreChanges": [
     "**/.babelrc", 
     "**/tsconfig.json", 
