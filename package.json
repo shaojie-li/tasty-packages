@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "release": "lerna publish --loglevel verbose",
     "preinstall": "npx only-allow pnpm"
   },
   "keywords": [],

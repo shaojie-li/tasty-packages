@@ -1,6 +1,6 @@
 {
   "name": "@tasty-pkgs/mul",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "mul",
   "main": "dist/index.js",
   "module": "dist/index.js",
