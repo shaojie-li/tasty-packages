@@ -1,5 +1,5 @@
 {
-  "name": "@tasty/mul",
+  "name": "@tasty-pkgs/mul",
   "version": "1.0.2",
   "description": "",
   "main": "dist/index.cjs.js",
@@ -16,5 +16,5 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "gitHead": "79762d18e211cfe47f014107467ade9566e9a118"
+  "gitHead": "2357e024bae464e246b8c58667d0c97bc9541243"
 }
