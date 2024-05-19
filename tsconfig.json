@@ -14,6 +14,7 @@
       "noImplicitThis": true,
       "downlevelIteration": true,
       "resolveJsonModule": false,
+      "emitDeclarationOnly": true,
       "typeRoots": ["./node_modules/@types"]
   }
 }
