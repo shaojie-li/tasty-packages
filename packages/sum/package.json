@@ -13,7 +13,8 @@
     "dist"
   ],
   "scripts": {
-    "build": "rollup -c --bundleConfigAsCjs"
+    "build": "rollup -c --bundleConfigAsCjs",
+    "prepare": "npm run build"
   },
   "keywords": [],
   "author": "",
