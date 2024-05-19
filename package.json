@@ -3,9 +3,12 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
   "scripts": {
-    "release": "lerna publish --loglevel verbose",
-    "preinstall": "npx only-allow pnpm"
+    "release": "lerna publish --loglevel verbose"
   },
   "keywords": [],
   "author": "",
