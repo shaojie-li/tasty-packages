@@ -1,6 +1,6 @@
 {
   "name": "@tasty-pkgs/mul",
-  "version": "1.0.17",
+  "version": "1.0.18",
   "description": "mul",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
@@ -20,7 +20,9 @@
       ]
     }
   },
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "exports": {
     ".": {
       "node": "./dist/cjs/index.js",
