@@ -10,7 +10,9 @@
     "access": "public"
   },
   "files": [
-    "dist"
+    "dist/cjs/**/!(*.tsbuildinfo)",
+    "dist/esm/**/!(*.tsbuildinfo)",
+    "dist/types/**/!(*.tsbuildinfo)"
   ],
   "scripts": {
     "build": "rollup -c --bundleConfigAsCjs",
