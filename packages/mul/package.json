@@ -13,13 +13,6 @@
   "publishConfig": {
     "access": "public"
   },
-  "typesVersions": {
-    ">=4.2": {
-      "*": [
-        "dist/types/*"
-      ]
-    }
-  },
   "files": [
     "dist"
   ],

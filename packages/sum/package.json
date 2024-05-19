@@ -8,28 +8,19 @@
   "publishConfig": {
     "access": "public"
   },
-  "typesVersions": {
-    ">=4.2": {
-      "*": [
-        "dist/types/*"
-      ]
-    }
-  },
-  "files": [
-    "dist/cjs/**/!(*.tsbuildinfo)",
-    "dist/esm/**/!(*.tsbuildinfo)",
-    "dist/types/**/!(*.tsbuildinfo)"
-  ],
-  "exports": {
-    "node": "./dist/cjs/index.js",
-    "require": "./dist/cjs/index.js",
-    "import": "./dist/esm/index.js",
-    "default": "./dist/esm/index.js",
-    "types": "./dist/types/index.d.ts"
-  },
   "scripts": {
     "build": "rollup -c --bundleConfigAsCjs",
     "prepare": "npm run build"
+  },
+  "files": ["dist"],
+  "exports": {
+    ".": {
+      "node": "./dist/cjs/index.js",
+      "require": "./dist/cjs/index.js",
+      "import": "./dist/esm/index.js",
+      "default": "./dist/esm/index.js",
+      "types": "./dist/index.d.ts"
+    }
   },
   "keywords": [],
   "author": "",
