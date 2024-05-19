@@ -2,12 +2,18 @@
   "name": "@tasty-pkgs/sum",
   "version": "1.0.15",
   "description": "sum",
-  "main": "dist/cjs/index.js",
-  "module": "dist/esm/index.js",
-  "types": "index.d.ts",
+  "main": "./dist/cjs/index.js",
+  "module": "./dist/esm/index.js",
   "sideEffects": false,
   "publishConfig": {
     "access": "public"
+  },
+  "typesVersions": {
+    ">=4.2": {
+      "*": [
+        "dist/types/*"
+      ]
+    }
   },
   "files": [
     "dist/cjs/**/!(*.tsbuildinfo)",
@@ -28,8 +34,8 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "gitHead": "93d6c7d0219ff7f7e64660b027214080bca5354a",
   "dependencies": {
     "@tasty-pkgs/mul": "^1.0.17"
-  },
-  "gitHead": "93d6c7d0219ff7f7e64660b027214080bca5354a"
+  }
 }
