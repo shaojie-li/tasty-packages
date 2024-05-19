@@ -14,13 +14,5 @@
       "registry": "https://registry.npmjs.org/"
     }
   },
-  "message": "chore(release): %s",
-  "ignoreChanges": [
-    "**/.babelrc", 
-    "**/tsconfig.json", 
-    "**/*.config.js", 
-    "**/*.lock", 
-    "**/*.log", 
-    "**/*.md"
-  ]
+  "message": "chore(release): %s"
 }
