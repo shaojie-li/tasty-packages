@@ -10,7 +10,7 @@
   },
   "scripts": {
     "build": "rollup -c --bundleConfigAsCjs",
-    "prepare": "npm run build"
+    "prepublish": "npm run build"
   },
   "files": [
     "dist"
@@ -26,7 +26,7 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "gitHead": "93d6c7d0219ff7f7e64660b027214080bca5354a",
   "dependencies": {
     "@tasty-pkgs/mul": "^1.0.20"

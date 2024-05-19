@@ -11,16 +11,18 @@ import { main, module } from "./package.json";
 export default [
     {
         input: 'src/index.ts',
-        output:  [{
-            file: main,
-            format: "cjs",
-            sourcemap: true,
-        },
-        {
-            file: module,
-            format: "esm",
-            sourcemap: true,
-        }],
+        output:  [
+                {
+                file: main,
+                format: "cjs",
+                sourcemap: true,
+            },
+            {
+                file: module,
+                format: 'esm',
+                sourcemap: true,
+            },
+        ],
         plugins: [
             delDir({targets: ["dist/*"]}), 
             typescript({
