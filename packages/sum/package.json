@@ -1,6 +1,6 @@
 {
   "name": "@tasty-pkgs/sum",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "sum",
   "main": "dist/index.cjs.js",
   "module": "dist/index.js",
@@ -9,7 +9,9 @@
   "publishConfig": {
     "access": "public"
   },
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "rollup -c --bundleConfigAsCjs"
   },
@@ -17,7 +19,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@tasty-pkgs/mul": "^1.0.7"
+    "@tasty-pkgs/mul": "^1.0.8"
   },
   "gitHead": "88258f5efd3a33a77fc7ca789e231375f82a7509"
 }
