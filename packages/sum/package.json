@@ -4,7 +4,7 @@
   "description": "sum",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
-  "types": "index.d.ts",
+  "types": "dist/index.d.ts",
   "sideEffects": false,
   "publishConfig": {
     "access": "public"
@@ -21,5 +21,5 @@
   "dependencies": {
     "@tasty-pkgs/mul": "^1.0.9"
   },
-  "gitHead": "88258f5efd3a33a77fc7ca789e231375f82a7509"
+  "gitHead": "93d6c7d0219ff7f7e64660b027214080bca5354a"
 }
