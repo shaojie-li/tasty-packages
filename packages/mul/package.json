@@ -8,6 +8,9 @@
   "publishConfig": {
     "access": "public"
   },
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "rollup -c --bundleConfigAsCjs --environment SOME_ENV1:production,SOME_ENV2:production",
     "prepublish": "pnpm run build"
