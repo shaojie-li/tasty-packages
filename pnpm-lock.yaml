@@ -29,7 +29,11 @@ importers:
 
   packages/mul: {}
 
-  packages/sum: {}
+  packages/sum:
+    dependencies:
+      '@tasty-pkgs/mul':
+        specifier: workspace:^
+        version: link:../mul
 
 packages:
 

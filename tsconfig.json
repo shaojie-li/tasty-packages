@@ -15,6 +15,5 @@
       "downlevelIteration": true,
       "resolveJsonModule": false,
       "typeRoots": ["./node_modules/@types"]
-  },
-  "include": ["packages/**/*.ts", "packages/**/*.tsx"]
+  }
 }

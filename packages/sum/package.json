@@ -1,13 +1,10 @@
 {
-  "name": "@tasty-pkgs/mul",
-  "version": "1.0.2",
+  "name": "@tasty-pkgs/sum",
+  "version": "1.0.0",
   "description": "",
-  "main": "dist/index.js",
+  "main": "dist/index.cjs.js",
   "module": "dist/index.js",
   "types": "dist/index.d.ts",
-  "publishConfig": {
-    "access": "public"
-  },
   "scripts": {
     "build": "rollup -c --bundleConfigAsCjs --environment SOME_ENV1:production,SOME_ENV2:production",
     "prepublish": "pnpm run build"
@@ -15,5 +12,7 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "gitHead": "2357e024bae464e246b8c58667d0c97bc9541243"
+  "dependencies": {
+    "@tasty-pkgs/mul": "workspace:^"
+  }
 }
