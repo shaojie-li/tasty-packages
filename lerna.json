@@ -4,6 +4,7 @@
   "npmClientArgs": ["--production", "--no-optional"],
   "skipNxCache": true,
   "version": "independent",
+  "useNx": true,
   "command": {
     "version": {
       "allowBranch": ["main"],
