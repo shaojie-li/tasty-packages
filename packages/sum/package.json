@@ -1,6 +1,6 @@
 {
   "name": "@tasty-pkgs/sum",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "sum",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
@@ -19,7 +19,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@tasty-pkgs/mul": "^1.0.8"
+    "@tasty-pkgs/mul": "^1.0.9"
   },
   "gitHead": "88258f5efd3a33a77fc7ca789e231375f82a7509"
 }
