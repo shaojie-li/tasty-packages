@@ -4,7 +4,7 @@
   "description": "mul",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
-  "types": "types/index.d.ts",
+  "types": "index.d.ts",
   "sideEffects": false,
   "publishConfig": {
     "access": "public"
@@ -15,9 +15,11 @@
     "dist/types/**/!(*.tsbuildinfo)"
   ],
   "exports": {
+    "node": "./dist/cjs/index.js",
     "require": "./dist/cjs/index.js",
     "import": "./dist/esm/index.js",
-    "default": "./dist/cjs/index.js"
+    "default": "./dist/esm/index.js",
+    "types": "./dist/types/index.d.ts"
   },
   "scripts": {
     "build": "rollup -c --bundleConfigAsCjs",
